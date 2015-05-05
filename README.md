@@ -315,20 +315,21 @@ For an example implementation view the [connect-redis](http://github.com/visionm
 The following modules implement a session store that is compatible with this
 module. Please make a PR to add additional modules :)
 
-  * [cassandra-store](https://www.npmjs.com/package/cassandra-store) An Apache
-    Cassandra-based session store.
-  * [connect-mssql](https://www.npmjs.com/package/connect-mssql) A SQL Server-based
-    session store.
-  * [connect-mongo](https://www.npmjs.com/package/connect-mongo) A MongoDB-based
-    session store.
-  * [connect-redis](https://www.npmjs.com/package/connect-redis) A Redis-based
-    session store.
-  * [level-session-store](https://www.npmjs.com/package/level-session-store)
-    A LevelDB-based session store.
-  * [mssql-session-store](https://www.npmjs.com/package/mssql-session-store) A
-    SQL Server-based session store.
-  * [session-file-store](https://www.npmjs.com/package/session-file-store) A file
-    system-based session store.
+  * [cassandra-store][cassandra-store-url] An Apache Cassandra-based session store.
+  * [connect-mssql][connect-mssql-url] A SQL Server-based session store.
+  * [connect-mongo][connect-mongo-url] A MongoDB-based session store.
+  * [connect-redis][connect-redis-url] A Redis-based session store.
+  * [level-session-store][level-session-store-url] A LevelDB-based session store.
+  * [mssql-session-store][mssql-session-store-url] A SQL Server-based session store.
+  * [session-file-store][session-file-store-url] A file system-based session store.
+
+[cassandra-store-url]: https://www.npmjs.com/package/cassandra-store
+[connect-mssql-url]: https://www.npmjs.com/package/connect-mssql
+[connect-mongo-url]: https://www.npmjs.com/package/connect-mongo
+[connect-redis-url]: https://www.npmjs.com/package/connect-redis
+[level-session-store-url]: https://www.npmjs.com/package/level-session-store
+[mssql-session-store-url]: https://www.npmjs.com/package/mssql-session-store
+[session-file-store-url]: https://www.npmjs.com/package/session-file-store
 
 ## Example
 
